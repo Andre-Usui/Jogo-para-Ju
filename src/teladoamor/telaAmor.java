@@ -119,18 +119,20 @@ public class telaAmor extends javax.swing.JFrame {
         String nome = txtAmor.getText();
         String amor = "Julianny";
         String nunca = "Eduarda";
-                        
+        int c = 0;    
+            //for (c = 0; nome.equals(amor) == false; c++);{
             if (nome.equals(amor)) {
                 lblImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/i love you.png")));
                 lblMensagem.setText("André te ama que só a porra");
             } else if (nome.equals(nunca)) {
                 lblImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/no love symbol.png")));
                 lblMensagem.setText("Tas viajando né kkkkk");
-            } else if (nome.equals(amor) == false) {                                
+            } else if (nome.equals(amor) == false) {                    
+                    lblContagem.setText("Você errou " + c + " vezes.");
                     lblImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/no love symbol.png")));
                     lblMensagem.setText("André não te ama");
-            }
-            
+            }           
+     
                 
                 
                
