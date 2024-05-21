@@ -1,2 +1,2 @@
 # aprendizados
-Testando meus aprendizados e atualizando meus projetos.
+Testando meus aprendizados em JAVA e atualizando meus projetos.
